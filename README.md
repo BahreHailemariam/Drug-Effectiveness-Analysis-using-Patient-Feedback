@@ -146,8 +146,48 @@ Give executives a quick snapshot of overall performance across all drugs, condit
 
 ### 🧠 Insights
 
-Identify which drugs are performing best overall.
+- Identify which drugs are performing best overall.
 
-See which conditions have most patient feedback.
+- See which conditions have most patient feedback.
 
-Spot rising patient-reported issues based on temporal trends.
+- Spot rising patient-reported issues based on temporal trends.
+
+🎭 Page 2 – Sentiment Insights
+### 🎯 Purpose
+
+Explore emotional tone of patient reviews.
+
+### 📌 KPIs
+
+- Positive Sentiment %
+
+- Negative Sentiment %
+
+- Neutral Sentiment %
+
+- Avg Sentiment Score (0–1 scaled)
+
+### 📈 Recommended Visuals
+
+- **Donut Chart:** Sentiment Breakdown
+
+- **Stacked Bar:** Sentiment by Drug
+
+- **Bar Chart:** Sentiment by Condition
+
+- **Word Clouds:**
+
+   - Positive Feedback
+
+  - Negative Feedback
+
+- **Scatter Plot:** Sentiment Score vs Rating
+
+### 🧠 Insights
+
+- Surface emotional patterns behind ratings.
+
+- Identify which drugs trigger negative keywords (e.g., “nausea,” “fatigue,” “anxiety”).
+
+- Compare emotional profiles of drugs used for the same condition.
+
