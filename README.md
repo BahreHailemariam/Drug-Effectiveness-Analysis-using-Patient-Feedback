@@ -114,7 +114,7 @@ The report is designed for pharmaceutical analysts, clinical research teams, and
 ### 🧭 Page 1 – Overview
 🎯 Purpose
 
-Give executives a quick snapshot of overall performance across all drugs, conditions, and patient reviews.
+Give executives a quick snapshot of overall performance across all drugs, conditions, and patient reviews.<br />
 📌 Recommended KPIs
 | KPI                     | Description                                         |
 | ----------------------- | --------------------------------------------------- |
@@ -123,3 +123,31 @@ Give executives a quick snapshot of overall performance across all drugs, condit
 | **Review Volume**       | Total number of reviews                             |
 | **Top Drug (by DEI)**   | Best-performing drug using Drug Effectiveness Index |
 | **Most Reviewed Drug**  | Highest patient engagement                          |
+
+### 📈 Recommended Visuals
+
+- **KPI Cards**
+
+  - Average Rating
+
+  - Positive Sentiment %
+
+  - Total Reviews
+
+  - Avg DEI
+
+- **Bar Chart:** Top 10 Drugs by DEI
+
+- **Line Chart:** Review Volume Over Time
+
+- **TreeMap:** Reviews by Condition
+
+- **Matrix Table:** Drug × Condition × Avg DEI
+
+### 🧠 Insights
+
+Identify which drugs are performing best overall.
+
+See which conditions have most patient feedback.
+
+Spot rising patient-reported issues based on temporal trends.
