@@ -15,3 +15,15 @@ This project bridges that gap by analyzing **textual feedback** from patients (e
 - Detect side effects and recurring patient complaints.
 
 - Evaluate overall treatment effectiveness by condition and demographic.
+
+## 🔍 Objectives
+
+- Collect and preprocess patient reviews from public datasets or APIs.
+
+- Perform sentiment classification (positive, neutral, negative).
+
+- Compute drug effectiveness scores using aggregated feedback.
+
+- Visualize sentiment trends and satisfaction levels across conditions.
+
+Generate Power BI dashboards for business and clinical insights.
