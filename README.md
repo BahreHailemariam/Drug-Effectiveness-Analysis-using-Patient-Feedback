@@ -152,7 +152,7 @@ Give executives a quick snapshot of overall performance across all drugs, condit
 
 - Spot rising patient-reported issues based on temporal trends.
 
-🎭 Page 2 – Sentiment Insights
+## 🎭 Page 2 – Sentiment Insights
 ### 🎯 Purpose
 
 Explore emotional tone of patient reviews.
@@ -191,3 +191,48 @@ Explore emotional tone of patient reviews.
 
 - Compare emotional profiles of drugs used for the same condition.
 
+## 🩺 Page 3 – Effectiveness by Condition
+### 🎯 Purpose
+
+Compare drug performance within the same medical condition to identify the most effective treatment options.
+
+### 📌 KPIs
+
+- Avg DEI (Drug Effectiveness Index) per Condition
+
+- Best Drug for Each Condition
+
+- Lowest-Performing Drug for Each Condition
+
+### 📈 Recommended Visuals
+
+- **Line Chart:** DEI Trend Over Time by Condition
+
+- **Clustered Bar Chart:** Avg DEI by Drug (per selected condition)
+
+- **Table:**
+ - Drug
+
+ - Avg DEI
+
+ - Avg Rating
+
+ - Avg Sentiment Score
+
+- **Filter Panel:**
+
+ - Condition
+
+ - Gender
+
+ - Age group
+
+### 🧠 Insights
+
+- Identify treatment differences for specific conditions.
+
+- Detect demographic variation in drug effectiveness (optional feature).
+
+- Understand long-term condition-specific trends.
+
+  
