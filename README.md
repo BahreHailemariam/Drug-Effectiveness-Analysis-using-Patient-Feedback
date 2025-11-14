@@ -92,3 +92,19 @@ effectiveness = df.groupby(['drugName', 'condition']).agg({
 ```python
 df['DEI'] = 0.6*df['rating']/10 + 0.4*((df['sentiment_score']+1)/2)
 ```
+
+### 5️⃣ Visualization
+
+Generate visual insights:
+
+- Top 10 most effective drugs by DEI.
+
+- Word clouds for positive vs. negative feedback.
+
+- Trend analysis of average rating over time.
+
+- Correlation between `sentiment_score` and `rating`.
+
+### 6️⃣ Power BI Dashboard
+
+- Integrate processed CSV data for dynamic visualization (see dashboard spec below).
