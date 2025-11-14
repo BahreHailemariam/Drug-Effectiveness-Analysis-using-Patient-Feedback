@@ -314,3 +314,31 @@ Identify sudden spikes in negative sentiment, unexpected drops in effectiveness,
 - Surface new concerns not previously seen in clinical trials.
 
 - Alert pharmaceutical teams for deeper investigation.
+
+## 🎨 Recommended Dashboard Navigation
+
+Left-side Navigation Pane:
+
+- **Overview**
+
+- **Sentiment Insights**
+
+- **Effectiveness by Condition**
+
+- **Drug Comparison**
+
+- **Anomaly Detection**
+
+Top Filters:
+
+- Condition
+
+- Drug
+
+- Gender
+
+- Age group
+
+- Date range
+
+  
