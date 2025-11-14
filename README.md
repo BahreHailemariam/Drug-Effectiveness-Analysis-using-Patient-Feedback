@@ -108,3 +108,18 @@ Generate visual insights:
 ### 6️⃣ Power BI Dashboard
 
 - Integrate processed CSV data for dynamic visualization (see dashboard spec below).
+## 📊 Power BI Dashboard Preview – Drug Effectiveness Analysis
+
+The report is designed for pharmaceutical analysts, clinical research teams, and healthcare data scientists to explore drug performance using real-world patient feedback.
+### 🧭 Page 1 – Overview
+🎯 Purpose
+
+Give executives a quick snapshot of overall performance across all drugs, conditions, and patient reviews.
+📌 Recommended KPIs
+| KPI                     | Description                                         |
+| ----------------------- | --------------------------------------------------- |
+| **Average Rating**      | Mean numerical patient rating for all drugs         |
+| **Overall Sentiment %** | % of positive reviews across dataset                |
+| **Review Volume**       | Total number of reviews                             |
+| **Top Drug (by DEI)**   | Best-performing drug using Drug Effectiveness Index |
+| **Most Reviewed Drug**  | Highest patient engagement                          |
