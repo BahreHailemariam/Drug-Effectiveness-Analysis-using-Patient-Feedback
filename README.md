@@ -40,3 +40,14 @@ Example dataset (from [UCI Drug Review Dataset]{https://archive.ics.uci.edu/ml/d
 | `rating`      | Numerical rating (1–10)                      |
 | `date`        | Review submission date                       |
 | `usefulCount` | Number of users who found the review helpful |
+
+## ⚙️ Tech Stack
+
+| Layer                        | Tools / Libraries                                            |
+| ---------------------------- | ------------------------------------------------------------ |
+| **Data Collection**          | `pandas`, `requests`, CSV/JSON APIs                          |
+| **Data Cleaning**            | `re`, `nltk`, `textblob`, `scikit-learn`                     |
+| **NLP & Sentiment Analysis** | `VADER`, `TextBlob`, or fine-tuned `BERT`                    |
+| **Visualization**            | `matplotlib`, `seaborn`, `wordcloud`, `Plotly`, **Power BI** |
+| **Automation**               | `schedule`, `Flask`, `Airflow` (optional)                    |
+| **Deployment**               | Streamlit / Power BI Dashboards                              |
