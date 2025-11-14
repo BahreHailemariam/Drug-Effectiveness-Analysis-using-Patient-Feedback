@@ -51,3 +51,22 @@ Example dataset (from [UCI Drug Review Dataset]{https://archive.ics.uci.edu/ml/d
 | **Visualization**            | `matplotlib`, `seaborn`, `wordcloud`, `Plotly`, **Power BI** |
 | **Automation**               | `schedule`, `Flask`, `Airflow` (optional)                    |
 | **Deployment**               | Streamlit / Power BI Dashboards                              |
+
+## 🧮 Project Workflow
+### 1️⃣ Data Extraction
+
+- Import CSV reviews dataset or pull live reviews via API.
+
+- Store raw data in `/data/raw/`.
+
+### 2️⃣ Data Cleaning
+
+- Remove stopwords, punctuation, and special characters.
+
+- Normalize case, handle missing values, and remove duplicates.
+
+- Save processed data in `/data/processed/`.
+
+### 3️⃣ Sentiment Analysis
+
+- Apply **VADER** or **TextBlob** sentiment scoring:
