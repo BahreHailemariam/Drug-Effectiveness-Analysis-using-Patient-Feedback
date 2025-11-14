@@ -211,21 +211,21 @@ Compare drug performance within the same medical condition to identify the most 
 - **Clustered Bar Chart:** Avg DEI by Drug (per selected condition)
 
 - **Table:**
- - Drug
+  - Drug
 
- - Avg DEI
+  - Avg DEI
 
- - Avg Rating
+  - Avg Rating
 
- - Avg Sentiment Score
+  - Avg Sentiment Score
 
 - **Filter Panel:**
 
- - Condition
+  - Condition
 
- - Gender
+  - Gender
 
- - Age group
+  - Age group
 
 ### 🧠 Insights
 
@@ -235,4 +235,41 @@ Compare drug performance within the same medical condition to identify the most 
 
 - Understand long-term condition-specific trends.
 
-  
+## ⚖️ Page 4 – Drug Comparison
+### 🎯 Purpose
+
+Perform head-to-head comparisons across drugs — essential for clinical and business decisions.
+
+### 📌 KPIs
+
+- Difference in DEI between Drug A and Drug B
+
+- Sentiment Distribution Comparison
+
+- Rating Comparison
+
+### 📈 Recommended Visuals
+
+- **Comparison Cards**
+
+   - Avg DEI (Drug A vs Drug B)
+
+   - Avg Rating
+
+   - Positive Sentiment %
+
+- **Radar Chart:** Comparison Across Dimensions
+
+- **Side-by-Side Bar Chart:** Ratings Distribution
+
+- **Line Chart:** Sentiment Trend Comparison
+
+- **Review Table:** Patient feedback filtered by drug
+
+### 🧠 Insights
+
+- Easily compare competing drugs for the same condition.
+
+- See which drug patients prefer based on sentiment + rating.
+
+- Discover side-effect complaints uniquely affecting one drug.  
