@@ -26,4 +26,17 @@ This project bridges that gap by analyzing **textual feedback** from patients (e
 
 - Visualize sentiment trends and satisfaction levels across conditions.
 
-Generate Power BI dashboards for business and clinical insights.
+- Generate Power BI dashboards for business and clinical insights.
+
+## 🧩 Dataset
+
+Example dataset (from [UCI Drug Review Dataset]{https://archive.ics.uci.edu/ml/datasets/Drug+Review+Dataset+%28Drugs.com%29}
+):
+| Feature       | Description                                  |
+| ------------- | -------------------------------------------- |
+| `drugName`    | Name of the prescribed drug                  |
+| `condition`   | Medical condition being treated              |
+| `review`      | Text feedback written by the patient         |
+| `rating`      | Numerical rating (1–10)                      |
+| `date`        | Review submission date                       |
+| `usefulCount` | Number of users who found the review helpful |
