@@ -70,3 +70,25 @@ Example dataset (from [UCI Drug Review Dataset]{https://archive.ics.uci.edu/ml/d
 ### 3️⃣ Sentiment Analysis
 
 - Apply **VADER** or **TextBlob** sentiment scoring:
+```python
+from textblob import TextBlob
+df['sentiment_score'] = df['review'].apply(lambda x: TextBlob(x).sentiment.polarity)
+```
+- Classify reviews:
+```python
+  df['sentiment_label'] = df['sentiment_score'].apply(lambda s: 'Positive' if s>0 else ('Negative' if s<0 else 'Neutral'))
+```
+### 4️⃣ Effectiveness Scoring
+
+- Aggregate metrics by `drugName` and `condition`:
+```python
+effectiveness = df.groupby(['drugName', 'condition']).agg({
+    'sentiment_score': 'mean',
+    'rating': 'mean',
+    'usefulCount': 'sum'
+}).reset_index()
+```
+- Compute composite **Drug Effectiveness Index (DEI)**:
+```python
+df['DEI'] = 0.6*df['rating']/10 + 0.4*((df['sentiment_score']+1)/2)
+```
