@@ -273,3 +273,44 @@ Perform head-to-head comparisons across drugs — essential for clinical and bus
 - See which drug patients prefer based on sentiment + rating.
 
 - Discover side-effect complaints uniquely affecting one drug.  
+
+## 🚨 Page 5 – Anomaly Detection
+### 🎯 Purpose
+
+Identify sudden spikes in negative sentiment, unexpected drops in effectiveness, or unusual rating patterns.
+
+### 📌 Triggers / KPIs
+
+- Negative sentiment spike > 2× baseline
+
+- Avg DEI drop > 10% week-over-week
+
+- Sentiment volatility increase
+
+- Top emerging negative keywords
+
+- First-time adverse reactions (text-based anomaly extraction)
+
+### 📈 Recommended Visuals
+
+- **Line Chart:** Negative Sentiment Trend Over Time
+
+- **Heatmap:** Negative Keywords (TF-IDF)
+
+- **Alert Cards:**
+
+    - “⚠️ Sudden Drop in DEI for Drug X”
+
+    - “⚠️ Negative Sentiment Spike – Last 7 Days”
+
+- **Scatter Chart:** Review Rating vs Sentiment Score Outliers
+
+- **Table:** List of flagged reviews with negative keywords highlighted
+
+### 🧠 Insights
+
+- Proactively detect safety or perception issues.
+
+- Surface new concerns not previously seen in clinical trials.
+
+- Alert pharmaceutical teams for deeper investigation.
